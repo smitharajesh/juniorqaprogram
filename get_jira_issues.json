@@ -1,0 +1,26 @@
+{
+  "friendly_name": "Fetch Jira Issues",
+  "description": "Query all Jira Issues that exist",
+  "version": "1.0",
+  "content_type": "app",
+  "steps": [
+    {
+      "chunk_name_for_max_in_url": "limit", 
+      "chunk_name_for_pos_in_url": "offset", 
+      "chunk_name_for_returned": "total", 
+      "chunk_name_for_total": "total", 
+      "chunk_size": 1000, 
+      "debug_packet": true, 
+      "expected_http_response": 200, 
+      "file": "QueryREST", 
+      "loops": 0, 
+      "method": "GET", 
+      "name": "FetchIssuesinJira", 
+      "object_type": "issues", 
+      "password": "NwswZlzOOkSWmOOQ7GgOC429", 
+      "prefix_url": "https://qxf2services.atlassian.net", 
+      "relative_url": "/rest/api/2/search?jql=project=10021", 
+      "username": "test@qxf2.com"
+    }
+  ]
+}

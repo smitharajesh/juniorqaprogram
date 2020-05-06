@@ -1,0 +1,26 @@
+{
+  "friendly_name": "Fetch GitHub Issues",
+  "description": "Query all GitHub Issues from one particular Repo",
+  "version": "1.0",
+  "content_type": "app",
+  "steps": [
+    {
+      "chunk_name_for_max_in_url": "limit", 
+      "chunk_name_for_pos_in_url": "offset", 
+      "chunk_name_for_returned": "open_issues", 
+      "chunk_name_for_total": "open_issues", 
+      "chunk_size": 10, 
+      "debug_packet": true, 
+      "expected_http_response": 200, 
+      "file": "QueryREST", 
+      "loops": 0, 
+      "method": "GET", 
+      "name": "FetchIssuesinGitHub", 
+      "object_type": "issues", 
+      "password": "c89fa612ce9c02a8bd46170a7a7159288e9e916e", 
+      "prefix_url": "https://api.github.com", 
+      "relative_url": "/repos/smitharajesh/juniorqaprogram", 
+      "username": "smitharajesh"
+    }
+  ]
+}
