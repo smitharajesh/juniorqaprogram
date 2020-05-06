@@ -17,7 +17,7 @@
       "method": "GET", 
       "name": "FetchIssuesinJira", 
       "object_type": "issues", 
-      "password": "NwswZlzOOkSWmOOQ7GgOC429", 
+      "password": "<token>", 
       "prefix_url": "https://qxf2services.atlassian.net", 
       "relative_url": "/rest/api/2/search?jql=project=10021", 
       "username": "test@qxf2.com"
