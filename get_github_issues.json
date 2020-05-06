@@ -17,7 +17,7 @@
       "method": "GET", 
       "name": "FetchIssuesinGitHub", 
       "object_type": "issues", 
-      "password": "c89fa612ce9c02a8bd46170a7a7159288e9e916e", 
+      "password": "<token>", 
       "prefix_url": "https://api.github.com", 
       "relative_url": "/repos/smitharajesh/juniorqaprogram", 
       "username": "smitharajesh"
